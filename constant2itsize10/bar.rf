@@ -1,0 +1,52 @@
+	d2=0.01
+	o1=0.
+	n2=701
+	o2=0
+	label1="Depth"
+	data_format="native_float"
+	label2="Position"
+	esize=4
+	in="snapshot.dat"
+	unit1="km"
+	unit2="km"
+	d1=0.01
+	n1=701
+	n3=50
+3.2-git	sfwindow	vti_fpm/fdoptical/constant2itsize10:	shanyuan@mars	Fri Apr 12 21:24:39 2024
+
+	o1=1
+	n2=501
+	d2=0.01
+	o2=1
+	label1="Depth"
+	f1=100
+	n3=1
+	d3=1
+	data_format="native_float"
+	o3=6
+	label2="Position"
+	f2=100
+	datapath=./
+	f3=6
+	esize=4
+	in="stdout"
+	unit1="km"
+	unit2="km"
+	n1=501
+	d1=0.01
+	in="stdin"
+
+3.2-git	sfput	vti_fpm/fdoptical/constant2itsize10:	shanyuan@mars	Fri Apr 12 21:24:39 2024
+
+	data_format="native_float"
+	o1=0
+	in="/var/tmp/vti_fpm/fdoptical/constant2itsize10/fpopticalconstant46.rsf@"
+	o2=0
+3.2-git	sfbyte	vti_fpm/fdoptical/constant2itsize10:	shanyuan@mars	Thu Apr 18 17:01:30 2024
+
+	n2=1
+	n3=1
+	data_format="native_uchar"
+	esize=1
+	in="/var/tmp/vti_fpm/fdoptical/constant2itsize10/bar.rf@"
+	n1=264

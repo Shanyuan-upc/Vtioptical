@@ -1,0 +1,91 @@
+Name of input velocity -- char name_velo[256]:
+vp.rsf@
+Name of input velocity -- char name_epsilon[256]:
+epsilon.rsf@
+Name of input velocity -- char name_delta[256]:
+delta.rsf@
+Name of input density -- char name_density[256]:
+rho.rsf@
+Name of input elevation -- char name_ele[256]:
+NULL
+Name of output record -- char name_shot[256]:
+shot.su
+Name of output wavesnap -- char name_snap[256]:
+snapshot.dat
+Flag of output wavefiled (!=0:output, 0: not output) -- int flag_wave:
+1
+Name of output wavesnap -- char name_snapu[256]:
+snapu.dat
+Flag of output wavefiled (!=0:output, 0: not output) -- int flag_wave:
+1
+Name of output wavesnap -- char name_snapv[256]:
+snapv.dat
+Flag of output wavefiled (!=0:output, 0: not output) -- int flag_wave:
+1
+Model horizontal sample nmuber -- int nx:
+501
+Model vertical sample nmuber -- int nz:
+501
+Calculation horizontal sample nmuber -- int nxc:
+501
+Calculation vertical sample nmuber -- int nzc:
+501
+Interval of model horizontal sample -- float dx:
+10.00
+Interval of model vertical sample -- float dz:
+10.00
+First grid postion at horizontal direction -- float fx:
+0.
+First grid postion at vertical direction -- float fz:
+0.
+Number of shot -- int ns:
+1
+The beginning number of shot -- int is_beg:
+1
+The ending number of shot -- int is_end:
+1
+Shot horizontal position at calculation grid -- int xsn:
+251
+Shot vertical position at calculation grid -- int zsn:
+251
+Shot interval in velocity grid -- int ds:
+0
+Record time -- float tmax:
+4
+Calculation time interval -- float dt:
+0.001
+Shot record time interval -- float dtout:
+0.001
+Spacing number of dt for output wavefiled -- int nmt:
+100
+Trace interval -- int ndtr:
+1
+Source frequency -- float fpeak:
+20.0
+Finite difference order -- int order(>=1||<=6):
+4
+Finite difference order -- int ssize(>=1||<=6):
+10
+Finite difference order -- float tol:
+1e-20
+Finite difference order -- int lambda:
+1
+Finite difference order -- float gama:
+1e-30
+Finite difference order -- int iteration:
+2
+PML maximum value -- float pml_max:
+300.0
+PML layer thickness -- int pml_thick:
+100
+Output information sign -- int verbose:
+1
+Acqusition par -- int itype_acq: 0 (full aperture), else (1, default, moving):
+1
+
+
+/net/pkp/li/10/jxy160930/dataset/scatter_2point/record_p2_regular2.su
+
+
+
+
