@@ -1,7 +1,7 @@
 # Vtioptical
 This repository is usd for calculating the propagation direction susing the optimized optical flow in seismic modeling for VTI medium.
 
-The /src folder contains source codes and object file are in the /bin folder.
+The /src folder contains source codes and object files are in the /bin folder.
 
 The /constant2itsize10 is a quick-test file folder for a homogeneous VTI model.
 
